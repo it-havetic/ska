@@ -310,22 +310,37 @@ Created by : mutationthemes
   background-position: top center;
 }
 .gall-1 {
-  background-image: url(../assets/img/11.jpg);
+  background-image: url(../assets/img/Gallery/9.JPG);
 }
 .gall-2 {
-  background-image: url(../assets/img/14.jpg);
+  background-image: url(../assets/img/Gallery/11.JPG);
 }
 .gall-3 {
-  background-image: url(../assets/img/13.jpg);
+  background-image: url(../assets/img/Gallery/8.JPG);
 }
 .gall-4 {
-  background-image: url(../assets/img/12.jpg);
+  background-image: url(../assets/img/Gallery/1.JPG);
 }
 .gall-5 {
-  background-image: url(../assets/img/15.jpg);
+  background-image: url(../assets/img/Gallery/2.JPG);
 }
 .gall-6 {
-  background-image: url(../assets/img/16.jpg);
+  background-image: url(../assets/img/Gallery/3.JPG);
+}
+.gall-7 {
+  background-image: url(../assets/img/Gallery/4.JPG);
+}
+.gall-8 {
+  background-image: url(../assets/img/Gallery/5.JPG);
+}
+.gall-9 {
+  background-image: url(../assets/img/Gallery/6.JPG);
+}
+.gall-10 {
+  background-image: url(../assets/img/Gallery/7.JPG);
+}
+.gall-11 {
+  background-image: url(../assets/img/Gallery/10.JPG);
 }
 
 /* End gallery Section*/

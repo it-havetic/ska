@@ -150,6 +150,7 @@ Created by : mutationthemes
   top: 40px;
   left: -70px;
   z-index: -1;
+  opacity: .2;
 }
 
 /* End hero Section*/
@@ -260,6 +261,7 @@ Created by : mutationthemes
   position: absolute;
   top: 70px;
   right: -12px;
+  opacity: .2;
 }
 .min-height-70 {
   min-height: 70px;
@@ -1100,4 +1102,54 @@ svg:not(:root) {
 }
 @media (min-width: 1200px) {
 }
+
+
+
+
+
+
+.newspaper-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.img-left {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 40%; /* Adjust as needed */
+}
+
+.img-right {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 0;
+    width: 22%; /* Adjust as needed */
+}
+
+.img-right-1{
+    width: 35%;
+}
+
+.newspaper-text {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .img-left, .img-right {
+        float: none;
+        display: block;
+        margin: 10px auto;
+        width: 100%; /* Full width on small screens */
+    }
+}
+
+
+/* hover effect */
+
+
+
 /*End mediaqueries*/

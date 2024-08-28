@@ -1,6 +1,0 @@
-Primary Colors
-Black	000000
-Red	D10A10
-
-Secondary Color (if required)
-Grey	706F6F

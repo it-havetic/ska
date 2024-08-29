@@ -27,6 +27,11 @@ Created by : mutationthemes
 
 /*Preloader*/
 
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
 .loader {
   background: #f3f5f8;
   bottom: 0;
@@ -1163,8 +1168,15 @@ svg:not(:root) {
 }
 
 
-/* hover effect */
+/* Heading font family */
 
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: "PT Sans", sans-serif !important;
+}
 
+.vbox-prev, .vbox-next{
+  display: block !important;
+}
 
 /*End mediaqueries*/

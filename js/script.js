@@ -62,7 +62,17 @@
 
 
 
-   $('.venobox').venobox(); 
+//    $('.venobox').venobox(); 
+
+$(document).ready(function () {
+  $(".venobox").venobox({
+    arrowsColor: "#ff0000",
+    autoplay: true,
+    bgcolor: "#000",
+    closeColor: "#fff",
+    // Other options here...
+  });
+});
 
 
    //Instagram feed setup

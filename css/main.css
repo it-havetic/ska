@@ -1179,4 +1179,8 @@ h1, h2, h3, h4, h5, h6,
   display: block !important;
 }
 
+.color-black{
+  color: #212529 !important;
+}
+
 /*End mediaqueries*/

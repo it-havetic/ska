@@ -1183,4 +1183,117 @@ h1, h2, h3, h4, h5, h6,
   color: #212529 !important;
 }
 
+/* notice page css start */
+.noticeField {
+  height: 1000px;
+}
+
+.noticeField .left,
+.noticeField .right {
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #e25d5d transparent; /* For Firefox */
+}
+
+.noticeField .left::-webkit-scrollbar,
+.noticeField .right::-webkit-scrollbar {
+  width: 8px; /* Adjust width as needed */
+}
+
+.noticeField .left::-webkit-scrollbar-thumb,
+.noticeField .right::-webkit-scrollbar-thumb {
+  background-color: #e25d5d; /* Thumb color */
+  border-radius: 4px; /* Optional: round the corners */
+}
+
+.noticeField .left::-webkit-scrollbar-track,
+.noticeField .right::-webkit-scrollbar-track {
+  background: transparent; /* Track color */
+}
+
+/* Media query for screens under 767px */
+@media (max-width: 767px) {
+  .noticeField .left,
+  .noticeField .right {
+    height: 50%;
+    overflow-y: scroll;
+  }
+}
+
+
+
+
+.noticeField .left::-webkit-scrollbar,
+.noticeField .right::-webkit-scrollbar 
+{
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.notice{
+  box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+  background: #ffffff;
+  margin-bottom: 8px;
+}
+
+.notice.active{
+  background: #e25d5d !important;
+}
+
+.notice p{
+  font-size: large;
+  margin: 0;
+  color: #3b4147;
+}
+
+.notice.active p{
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.notice span{
+  font-size: 12px;
+  text-align: right;
+  display: block;
+}
+
+.notice-download{
+  background: #000;
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.notice-download img{
+  max-width: 100%;
+  max-height: 600px;
+  object-fit: contain;
+}
+
+.notice-download .download-icon{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  z-index: 99;
+}
+
+.notice-download .download-icon .btn-social-light{
+  box-shadow: none;
+  background: #ffffff;
+  opacity: .8;
+  transition: all linear .4s;
+}
+
+.notice-download .download-icon .btn-social-light:hover{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
 /*End mediaqueries*/

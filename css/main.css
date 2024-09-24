@@ -1291,7 +1291,52 @@ h1, h2, h3, h4, h5, h6,
 
 
 
+/* css for popup */
+/* Popup Styles */
+/* Popup Styles */
+.popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
 
+.popup.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup-content {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.popup-content .popupNotice{
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
 
 
 

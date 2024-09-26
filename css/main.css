@@ -1319,6 +1319,7 @@ h1, h2, h3, h4, h5, h6,
   padding: 20px;
   border-radius: 8px;
   text-align: center;
+  
 }
 
 .popup-content .popupNotice{
@@ -1328,12 +1329,14 @@ h1, h2, h3, h4, h5, h6,
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   text-align: left;
   position: relative;
+  height: calc(100vh - 200px);
+  overflow-y: scroll;
 }
 
 .close-btn {
-  position: absolute;
+  position: sticky;
   top: 10px;
-  right: 15px;
+  right: 20px;
   font-size: 20px;
   cursor: pointer;
 }
